@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+input{
+    margin-bottom: 10px;
+}
+.div1{
+    border: 1px solid black;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    width: 375px;
+    left: 38%;
+    top: 66px;
+}
+.div1:hover{
+    background: rgb(50,103,186);
+    background: linear-gradient(10deg, rgba(50,103,186,1) 50%, rgba(210,36,36,1) 80%);
+    text-decoration: underline;
+}
+h1{
+background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
